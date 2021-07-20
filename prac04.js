@@ -15,12 +15,15 @@ for(let person of arrayPerson)
     console.log(person)
 
 
+
 //3. for in
 for(let index in arrayPerson)
     console.log(arrayPerson[index])
 
 
-//4. for each
+
+//4. for each 
+//(개인적으로 이게 제일 폼나는 듯하다.)
 arrayPerson.forEach((person)=>{
     console.log(person)
 })

@@ -6,12 +6,14 @@ function isValidAge(person){
         return false;
 }
 
+
 var personArray = [
     {'name':'sseung', 'age':25},
     {'name':'ppanda', 'age':30},
     {'name':'john', 'age':17},
     {'name':'cindy', 'age':13}
 ]
+
 
 //for문 사용하기
 for(var i = 0; i < personArray.length; i++){
@@ -27,7 +29,6 @@ for(var i = 0; i < personArray.length; i++){
    
 
 // 나이 평균 구하는 함수 만들기
-
 function getAverageAge(personArray){
     sum = 0
     for(var i=0; i<personArray.length; i++){

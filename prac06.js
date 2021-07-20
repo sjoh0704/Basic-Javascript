@@ -1,7 +1,13 @@
-//Promise
-//자바스크립트에서 비동기 처리를 할때 사용하며, 콜백 지옥을 해결할 수 있다. 
+
 
 /*
+
+< Promise >
+
+자바스크립트에서 비동기 처리를 할때 사용하며, 콜백 지옥을 해결할 수 있다. 
+
+
+
 < 콜백 지옥 예시 >
     isBusHere(function(isBusHereResult) {
         isBusStop(isBusHereResult, function(isBusStopResult) {

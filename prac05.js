@@ -22,7 +22,6 @@ const helloArrayOneline = (msg) => console.log(msg)
 
 
 //문제: 화살표 함수를 이용하여 사람들의 나이 평균 구하기 
-
 let personArray = [
     {'name':'sseung', 'age':25},
     {'name':'ppanda', 'age':30},
