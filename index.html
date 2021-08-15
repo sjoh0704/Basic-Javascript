@@ -16,6 +16,12 @@
       socket.on("message", (data) => {
         console.log(data);
       });
+
+    // customEventName이 오면 동작한다. 
+    socket.on('customEventName', (data)=> {
+        console.log(data);
+    })
+
     </script>
   </body>
 </html>
