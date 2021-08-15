@@ -1,3 +1,7 @@
+//socketio 사용하기 
+
+// 패키지 설치: npm i socket.io -S  
+
 const socketIo =require('socket.io');
 
 const io = socketIo(3000, {
