@@ -1,0 +1,26 @@
+{
+  "name": "practice01",
+  "version": "1.0.0",
+  "description": "This repo is for learning Javascript",
+  "main": "express.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.1.0",
+    "socket.io": "^4.1.3",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjoh0704/Basic-Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjoh0704/Basic-Javascript/issues"
+  },
+  "homepage": "https://github.com/sjoh0704/Basic-Javascript#readme"
+}
